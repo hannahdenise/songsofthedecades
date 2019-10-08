@@ -1,0 +1,92 @@
+<style>
+
+header{
+width: 100%;
+height : 50px;	
+}
+
+body{
+background-color:#f4ebd0;
+margin: 0px;
+}
+
+nav {
+    background: #ff8210;
+    padding: 10px;
+	width: 25%;
+	margin-top: 200px;
+	margin-left: 20px;
+	border-color: black;
+	border-style: solid;
+	border-width: 5px;
+}
+
+nav ul {	
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li a {text-decoration:none;
+	color: white;
+	display: block;
+	padding-left: 10px;
+}
+
+nav a:hover {
+	background: #ffbd59;
+}
+
+img{
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+img:hover { 
+	transform: rotate(-20deg);
+}
+.description{
+width: 55%;
+height: 150px;
+float: right;
+margin-right: 20px;
+margin-top:50px;
+background-color:#4fc8dc;
+text-align: left;
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 20px;
+border-right: 5px;
+border-top: 5px;
+border-color: black;
+border-style: solid;
+border-width: 5px;
+
+}
+	
+.lyrics{
+width: 55%;
+height: 290px;
+float: right;
+border-style: solid;
+border-color: black;
+border-width: 5px;
+overflow: scroll;
+text-align: center;
+position: inline;
+margin-top: -200px;
+margin-right: 20px;
+background-color:#f4cc20;
+}
+
+.fixedcontainer { 
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 200px;
+  background-color: yellow;
+  border: 3px solid black;
+  text-align: center;
+}
+
+
+</style>

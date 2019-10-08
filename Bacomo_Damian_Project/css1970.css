@@ -1,0 +1,106 @@
+<style>
+
+header{
+width: 100%;
+height : 50px;	
+}
+
+
+body{
+background-image: url(jackson5.jpg);
+margin: 0px;
+background-size: 100%;
+}
+
+
+nav{
+	width: 30%;
+	height: 370px;
+	overflow: scroll;
+	background-color: #60941a;
+	
+}
+
+nav ul {	
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li a {text-decoration:none;
+	color: black;
+	display: block;
+	padding-left: 10px;
+	font-style: bold;
+	font-family: verdana;
+	font-size: 1.5vw;
+}
+
+nav li{
+	font-family: verdana;
+	font-size: 1.5vw;
+}
+
+
+ nav a:hover {
+	background: #ffbd59;
+}
+
+a:visited{
+	color: black;
+}
+
+img{
+	margin-left: 7%;
+	margin-top: 3%;
+	height: 36%;
+	width: 25%;
+}
+
+img:hover { 
+	transform: rotate(-10deg);
+}
+.description{
+width: 100%;
+height: 25%;
+text-align: left;
+padding-left: 2%;
+padding-right: 2%;
+background-color: #ffd230;
+margin-top: 25%;
+font-size: 1.43vw;
+box-sizing: border-box;
+
+}
+	
+.lyrics{
+width: 70%;
+height: 370px;
+float: right;
+overflow: scroll;
+position: inline;
+background-color:#f9943b;
+position:inline;
+font-size: 1.5vw;
+font-style: bold;
+font-family: Verdana, Geneva, sans-serif;
+padding: 10px;
+box-sizing: border-box;
+margin-top: -370px;
+}
+
+.fixedcontainer { 
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 10%;
+  border: 3px solid black;
+  background-color: yellow;
+  text-align: center;
+}
+
+
+
+
+
+
+</style>

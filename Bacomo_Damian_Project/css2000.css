@@ -1,0 +1,114 @@
+<style>
+
+header{
+width: 100%;
+height : 50px;	
+}
+
+
+body{
+background-image: url(2000_bg.png);
+margin: 0px;
+background-size: 100%;
+}
+
+
+nav{
+	width: 30%;
+	height: 350px;
+	overflow: scroll;
+	margin-top: 3.5%;
+	margin-left: 7%;
+	background-color: white;
+	opacity: 0.7;
+	filter: alpha(opacity=50);
+}
+
+nav ul {	
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li a {text-decoration:none;
+	color: black;
+	display: block;
+	padding-left: 10px;
+	font-style: bold;
+	font-family: verdana;
+	font-size: 1.5vw;
+}
+
+nav li{
+	font-family: verdana;
+	font-size: 1.5vw;
+}
+
+
+ nav a:hover {
+	background: #ffbd59;
+}
+
+a:visited{
+	color: black;
+}
+
+img{
+	margin-left: 7%;
+	margin-top: 3%;
+	height: 36%;
+	width: 25%;
+}
+
+img:hover { 
+	transform: rotate(-10deg);
+}
+.description{
+width: 60%;
+height: 25%;
+float: right;
+text-align: left;
+padding-left: 1%;
+padding-right: 1%;
+background-color: #f4ebd0;
+margin-top: 3%;
+font-size: 1.43vw;
+box-sizing: border-box;
+margin-right: 8%;
+
+}
+	
+.lyrics{
+width: 40%;
+height: 350px;
+float: right;
+overflow: scroll;
+position: inline;
+margin-top:-350px;
+background-color:#f4cc20;
+position:inline;
+margin-right:8%;
+font-size: 1.5vw;
+font-style: bold;
+opacity: 0.8;
+filter: alpha(opacity=50);
+font-family: Verdana, Geneva, sans-serif;
+padding: 10px;
+
+}
+
+.fixedcontainer { 
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  width: 7%;
+  border: 3px solid black;
+  background-color: yellow;
+  text-align: center;
+}
+
+
+
+
+
+
+</style>
